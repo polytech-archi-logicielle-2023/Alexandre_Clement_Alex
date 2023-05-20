@@ -16,14 +16,14 @@ public class ProfesseurService {
     }
     public void initProfesseur() {
         Professeur prof1 = new Professeur();
-        prof1.setName("alexandre");
-        prof1.setSurname("gros fdp");
-        prof1.setCourse("salop");
+        prof1.setName("PROF2");
+        prof1.setSurname("PROF");
+        prof1.setCourse("TD");
 
         Professeur prof2 = new Professeur();
-        prof2.setName("alexandre est ");
-        prof2.setSurname("un enorme gros fdp");
-        prof2.setCourse("et une petite salope");
+        prof2.setName("Prof1");
+        prof2.setSurname("profprof");
+        prof2.setCourse("TP");
 
         this.repository.save(prof1);
         this.repository.save(prof2);
